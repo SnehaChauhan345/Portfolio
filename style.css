@@ -1,0 +1,510 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing:border-box;
+}
+body{
+    background: #000000;
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between; /* To align items at start and end*/
+    align-items: center;
+    padding: 10px 20px;
+}
+nav h1{
+    background: linear-gradient(to right, #49B649, #0072FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-links a{
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+.nav-links a:hover{
+    background: linear-gradient(to right, #49B649, #0072FF);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.nav-links #button{
+    border-width: 1px;
+    border: solid;
+    padding: 5px;
+    border-color: #309530;
+    color:#49B649;
+    border-radius:3px;
+}
+.nav-links #button:hover{
+    border-color: #0e4c0e;
+    color:#285d28;
+    text-decoration:none;
+}
+.nav-links a:hover {
+    text-decoration: underline;
+}
+.hero {
+    background: url(Deploy\ an\ Angular\ App\ From\ Visual\ Studio\ Code\ to\ Azure\ -\ DZone.jpeg) no-repeat scroll;
+    background-size: cover;
+    padding:100px;
+    padding-bottom: 180px;
+    
+}
+.hero h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+.hero div{
+    margin-left:10%;
+    margin-top: 7%;
+}
+.hero h5{
+    margin-top: 10px;
+    font-size:20px;
+}
+.hero p {
+    font-size: 15px;
+    margin-top: 3%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    color:rgb(155, 153, 96);;
+    line-height: 25px;
+}
+
+.hero button{
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: #22b222;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.hero button:hover{
+    transition: scale(0.9);
+}
+.hero button:active {
+    transform: scale(0.8);
+}
+#color-div{
+    background-color: #22b222;
+    width:70px;
+    height:2px;
+    margin-left:7%;
+    margin-bottom:-35px;
+}
+#about{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(13, 17, 23);
+    padding-bottom: 2%;
+}
+.about-me p{
+    margin-top: 5%;
+    margin-left: 7%;
+    line-height: 25px;
+}
+.about-me{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.profile{
+    margin-top:5%;
+    margin-right: 10%;
+}
+.profile img{
+    width:350px;
+    height: auto;
+}
+.about-me h1{
+    font-size: 35px;
+    margin-top: 5%;
+    margin-left: 7%;
+}
+#about p{
+    font-size: 15px;
+    color:rgb(155, 153, 96);
+
+}
+#skills{
+    margin-left: 12%;
+}
+#skills ol{
+    margin-left:5%;
+}
+
+#image img{
+    width:70px;
+}
+#js{
+   height:60px                         
+}
+#tail{
+    margin-bottom: -12px;
+}
+#Bootstrap{
+    height: 65px;
+}
+#sk{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 12%;
+    margin-top: 5%;
+}
+#sk h2{
+    margin-top: 20px;
+}
+#image img{
+    margin-right: 25px;
+}
+#image img {
+    max-height: 100px; /* Adjust to the desired size */
+    transition: transform 0.3s ease; /* Smooth transition for the transform property */
+}
+
+#image img:hover {
+    transform: scale(0.7); /* Scales the image down to 90% of its size */
+}
+#skills h1{
+    font-size:35px;
+    margin-top: 5%;
+}
+.card-img-top{
+    width:400px;
+}
+.card{
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.project{
+     display: flex;
+    justify-content: center;
+   
+}
+#pro{
+    background-color:rgb(13, 17, 23);
+    padding-bottom: 5%;
+}
+#pro h2{
+    margin-left: 12%;
+    font-size:35px;
+    margin-top:5%;
+    padding-top:5%
+}
+#color-div2{
+    background-color: #22b222;
+    width:50px;
+    height:2px;
+    margin-left: 12%;
+    margin-top: -50px;
+}
+.contact-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 35%;
+    margin-right: 35%;
+    border: solid;
+    border-width: 1px;
+    padding-top: 3%;
+    border-color: #22b222;
+    padding-bottom:2%;
+}
+.contact-inputs{
+    margin-top: 10%;
+    width: 400px;
+    padding:10px;
+}
+.submit{
+    margin-top: 10%;
+    padding: 8px 20px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 6px;
+    border: none;
+    background-color: #22b222;
+}
+.card-link{
+    text-decoration: none;
+    font-size:25px;
+    color:#9625b5;
+     font-weight:bold; 
+    margin-left: 40%;
+}
+.card-link2{
+    text-decoration: none;
+    font-size:25px;
+    color:#9625b5;
+     font-weight:bold; 
+    margin-left: 30%;
+}
+.card-img-top2{
+    height:184px;
+    width:400px;
+
+}
+footer{
+    margin-top: 5%;
+    background-color: rgb(35, 37, 37);
+    padding: 20px 0;
+    text-align: center; /* Align content in the center */
+    padding-bottom: 3%;
+}
+.footer-content {
+    color: #000000;
+    padding-top: 3%;
+    max-width: 600px; /* Example max-width for content */
+    margin: 0 auto; /* Center align content horizontally */
+}
+
+.footer-content h2,
+.footer-content p,
+.footer-content h4 {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.social-link {
+    color: #000000;
+    font-size: 35px;
+    margin: 0 10px; /* Adjust spacing between social icons */
+}
+
+.social-link:hover {
+    color: #22b222; /* Change color on hover */
+}
+
+
+
+@media (max-width:1211px){
+    .project{
+        margin-left: 10%;
+    }
+    .card-img-top{
+        width: 250px;
+    }
+    .card-img-top2{
+        width: 250px;
+        height: 120px;
+    }
+    .card-link{
+        font-size: 18px;
+        margin-left: 30%;
+    }
+    .card-link2{
+        font-size: 18px;
+        margin-left: 20%;
+    }
+    #pro h2{
+        font-size: 24px;
+        margin-bottom: 20px;
+        
+    }
+}
+
+@media(max-width:1300px){
+    .contact-inputs{
+        width: 300px;
+    }
+
+}
+@media(max-width:1130px){
+    .contact-inputs{
+        width: 250px;
+    }
+}
+@media(max-width:900px){
+    .contact-inputs{
+        width: 180px;
+    }
+}
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide navigation links on small screens */
+    }
+
+    .hero {
+        padding: 80px; /* Adjust padding for smaller screens */
+        padding-bottom: 150px; /* Adjust bottom padding */
+    }
+
+    .hero h1 {
+        font-size: 30px; /* Decrease font size for smaller screens */
+    }
+
+    .hero div {
+        margin-top: 10%; /* Adjusted margin for smaller screens */
+    }
+
+    .hero h5 {
+        font-size: 18px; /* Decrease font size for smaller screens */
+    }
+
+    .hero p {
+        font-size: 14px; /* Decrease font size for smaller screens */
+    }
+
+    .hero button {
+        padding: 10px 12px; /* Adjust button padding for smaller screens */
+    }
+    #about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-me {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .profile {
+        margin-right: 0;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .profile img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    #color-div {
+        margin-left: 39%;
+        width: 50px;
+        margin-top: 2px;
+    }
+
+    .about-me h1, .about-me p {
+        margin-left: 0;
+    }
+
+    #skills {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #skills ol {
+        margin-left: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    #sk {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sk h2 {
+        margin-top: 10px;
+    }
+
+    #image {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #image img {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        width: 50px;
+        height: 50px;
+    }
+    .contact-inputs{
+        width: 300px;
+    }
+    .submit{
+        font-size: 14px;
+    }
+    .contact-title{
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+@media(max-width:540px){
+    .contact-inputs{
+       width: 50px;
+    }
+}
+
+@media(max-width:650px){
+    .contact-inputs{
+        width: 250px;
+        padding: 2px;
+    }
+    .submit{
+        font-size: 12px;
+    }
+    .project{
+       display: block;
+       margin: auto;
+       margin-left: 30%;
+    }
+}
+@media (max-width: 490px) {
+    .hero div{
+        margin-left: 5px;
+        margin-right:5px;
+    }
+    .about-me h1 {
+        font-size: 28px;
+        padding-top: 5%;
+    }
+
+    #skills h1 {
+        font-size: 28px;
+    }
+    #sk h2{
+        font-size: 22px;
+    }
+
+    .profile img {
+        max-width: 250px;
+    }
+
+    #image img {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        width: 30px;
+        height: 30px;
+    }
+    .contact-title h2{
+        font-size: 14px;
+    }
+    .contact-inputs{
+        width: 100px;
+        padding: 2px;
+    }
+    .submit{
+        font-size: 9px;
+        padding: 4px 6px;
+    }#pro h2{
+        font-size: 20px; 
+    }
+    .project{
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+}
+@media(max-width:400px){
+    .contact-title h2{
+        font-size: 10px;
+    }
+    .contact-inputs{
+        width: 60px;
+        padding: 0;
+    }
+    .submit{
+        font-size: 7px;
+        padding: 3px 5px;
+    }
+}
